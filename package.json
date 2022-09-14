@@ -12,6 +12,10 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",
+    "lerna": "^5.5.1",
     "vite": "^2.9.12"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
